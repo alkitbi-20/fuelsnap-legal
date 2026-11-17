@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>FuelSnap — WHOOP Privacy Policy</title>
+<style>body{font:16px/1.6 -apple-system,system-ui,sans-serif;max-width:720px;margin:0 auto;padding:24px 16px;color:#14202b;background:#fff}h1{font-size:1.6rem}h2{font-size:1.15rem;margin-top:1.8em}li{margin:.3em 0}.note{border:1px solid #d9a400;background:#fff8e1;color:#3d2f00;padding:12px 14px;border-radius:8px}@media(prefers-color-scheme:dark){body{background:#0e1620;color:#e6edf3}a{color:#6cb6ff}.note{background:#2a2100;color:#ffe9a3;border-color:#8a6d00}}</style></head>
+<body>
+<h1>FuelSnap — WHOOP Privacy Policy</h1>
+<p>Last updated: 17 November 2026</p>
+<p class="note"><b>WHOOP support is in testing.</b> The WHOOP connection is not available to the public. It is being built and tested by the developer and invited testers only. Everything below describes how FuelSnap is designed to handle WHOOP data; features are described as intended, not as already working, until they are built and tested. This page will be updated before the connection is offered to anyone else.</p>
+
+<h2>Who we are</h2>
+<p>FuelSnap is a calorie, nutrition and workout tracking app for iPhone, run by an individual developer. Privacy contact: <a href="mailto:alkitbi.sd@gmail.com">alkitbi.sd@gmail.com</a>.</p>
+
+<h2>What FuelSnap asks WHOOP for</h2>
+<p>Connecting WHOOP is optional, and FuelSnap works without it. You sign in on WHOOP's own page; FuelSnap is not designed to see your WHOOP password. You then choose whether to approve these read-only permissions:</p>
+<ul>
+<li><b>Recovery</b> (read:recovery): recovery score, heart rate variability, resting heart rate.</li>
+<li><b>Cycles</b> (read:cycles): daily strain and daily average heart rate.</li>
+<li><b>Sleep</b> (read:sleep): sleep times, stages and performance.</li>
+<li><b>Workouts</b> (read:workout): activity type, duration, strain and heart rate.</li>
+<li><b>Offline access</b> (offline): lets the connection keep working without asking you to sign in every hour.</li>
+</ul>
+<p>FuelSnap does not request your WHOOP profile (name, email) or body measurements.</p>
+
+<h2>How the data will be used</h2>
+<p>WHOOP data is intended only to show your recovery, strain, sleep and workouts inside FuelSnap, labelled as coming from WHOOP. FuelSnap does not use it for advertising and does not sell it.</p>
+<ul>
+<li><b>No AI training.</b> WHOOP data will not be used to train, fine-tune or improve any machine-learning or AI model.</li>
+<li><b>No AI Coach.</b> WHOOP data will not be sent to FuelSnap's AI Coach or any other AI feature unless you give separate, specific consent for it and this policy has first been updated to say so.</li>
+<li><b>No medical use.</b> FuelSnap does not diagnose, treat or give medical advice.</li>
+</ul>
+
+<h2>What will be stored</h2>
+<p>The design is for FuelSnap's server (hosted by Supabase) to keep only what is needed to maintain the connection: your WHOOP user ID, the access and refresh tokens WHOOP issues, the permissions you granted, and when you connected. These tokens are intended to be stored in a restricted table that only FuelSnap's server code can read, and protected with encryption. Encryption and access restrictions have not been built or verified yet, and this page will say so plainly until they are. WHOOP health values are intended to be fetched when you open a screen rather than kept as a permanent copy. Connections to WHOOP and Supabase use HTTPS.</p>
+
+<h2>Who else receives it</h2>
+<p>Supabase processes the connection details on FuelSnap's behalf. FuelSnap does not intend to share WHOOP data with anyone else.</p>
+
+<h2>Disconnecting and deletion</h2>
+<ul>
+<li>You can remove FuelSnap's access at any time in your WHOOP account settings. This works today because it is controlled by WHOOP.</li>
+<li>The planned in-app Disconnect will ask WHOOP to end the connection and delete the stored tokens and any WHOOP data FuelSnap holds. The planned FuelSnap account deletion will do the same. These are not built yet.</li>
+<li>During testing you can also ask for deletion by email at the address above.</li>
+</ul>
+
+<h2>Changes</h2>
+<p>This page will be updated, and the date above changed, before any new use of WHOOP data begins and before WHOOP support is opened to the public.</p>
+
+<h2>Contact</h2>
+<p><a href="mailto:alkitbi.sd@gmail.com">alkitbi.sd@gmail.com</a></p>
+</body></html>
